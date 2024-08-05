@@ -20,7 +20,7 @@ FROM alpine
 ENV OLLAMA_HOST "0.0.0.0"
 
 # Install required runtime dependencies
-RUN apk add --no-cache libstdc++ curl libexecinfo
+RUN apk add --no-cache libstdc++ curl
 
 # NOTE: UNCOMMENT THIS IF YOU'RE CHANGING THE MODELFILE
 # COPY Modelfile /Modelfile
