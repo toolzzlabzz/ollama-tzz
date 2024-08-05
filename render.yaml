@@ -1,6 +1,6 @@
 services:
   - type: pserv
-    name: your-app-ollama
+    name: tzz-ollama
     region: oregon
     runtime: docker
     dockerContext: ./ollama

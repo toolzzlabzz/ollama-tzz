@@ -1,6 +1,6 @@
 #!/bin/sh
 
-./bin/ollama serve &
+/bin/ollama serve &
 
 sleep 5
 
