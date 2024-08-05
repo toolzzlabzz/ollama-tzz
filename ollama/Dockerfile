@@ -2,7 +2,7 @@
 FROM golang:alpine AS builder
 
 # Install required dependencies
-RUN apk add --no-cache git build-base cmake bash libexecinfo-dev
+RUN apk add --no-cache git build-base cmake bash libc-dev
 
 # Set the working directory within the container
 WORKDIR /app
