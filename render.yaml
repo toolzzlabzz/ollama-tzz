@@ -6,3 +6,9 @@ services:
     dockerContext: ./ollama
     dockerfilePath: ./ollama/Dockerfile
     plan: starter
+    envVars:
+      - key: OLLAMA_URL
+        fromService:
+          name: your-app-ollama
+          type: pserv
+          property: hostport
