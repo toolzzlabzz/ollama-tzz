@@ -1,6 +1,6 @@
 services:
   - type: pserv
-    name: your-app-ollama  # Substitua por um nome significativo para seu serviço
+    name: your-app-ollama
     region: oregon
     runtime: docker
     dockerContext: ./ollama
