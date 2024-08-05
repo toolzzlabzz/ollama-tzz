@@ -6,7 +6,7 @@ ARG ROCM_VERSION=6.1.2
 
 # Copy the minimal context we need to run the generate scripts
 FROM scratch AS llm-code
-COPY .git .git
+# COPY .git .git
 COPY .gitmodules .gitmodules
 COPY llm llm
 
